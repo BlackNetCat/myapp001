@@ -7,6 +7,17 @@
     <groupId>com.blacknetcat.myapp001</groupId>
     <artifactId>com.blacknetcat.myapp001</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <properties>
+        <hibernate-entitymanager.version>5.0.2.Final</hibernate-entitymanager.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate-entitymanager.version}</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
